@@ -9,7 +9,7 @@ namespace ClassMethodDemo
     public class ClientManager : Client
     {
 
-        Client[] clients = new Client[10];
+        Client[] clients = new Client[100];
         int i = 0;
         public void Add(string name, string surname , int id)
         {
