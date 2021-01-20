@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-                                    // Musteri Ekleme Silme ve Lİsteleme islemlerini yapan konsol uygulaması.
+                                    // Musteri Ekleme Silme ve Listeleme islemlerini yapan konsol uygulaması.
 namespace ClassMethodDemo
 {
     class Program : ClientManager
