@@ -15,7 +15,7 @@ namespace ClassMethodDemo
             string secim = "0";
             int id;
             string name, surname;
-            while(secim != "3")
+            while(secim != "4")
             {
                 Console.Clear();
                 Console.WriteLine("1) Ekle 2) Listele 3) Sil 4) Cikis\n");
