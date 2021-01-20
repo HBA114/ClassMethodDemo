@@ -27,10 +27,6 @@ namespace ClassMethodDemo
                 if(clients[k].Id == id)
                 {
                     clients[k] = null;
-                    //clients[k].Id = 0;
-                    //clients[k].Name = null;
-                    //clients[k].SurName = null;
-
                 }
             }
         }
