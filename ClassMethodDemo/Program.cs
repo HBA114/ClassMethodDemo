@@ -18,7 +18,7 @@ namespace ClassMethodDemo
             while(secim != "3")
             {
                 Console.Clear();
-                Console.WriteLine("1) Ekle 2) Listele 3) Cikis\n");
+                Console.WriteLine("1) Ekle 2) Listele 3) Sil 4) Cikis\n");
                 secim = Console.ReadLine();
                 switch (secim)
                 {
@@ -39,6 +39,12 @@ namespace ClassMethodDemo
                         break;
 
                     case "3":
+                        Console.WriteLine("Silinecek Musterinin Id'sini giriniz...");
+                        id = Convert.ToInt32(Console.ReadLine());
+                        CM.Delete(id);
+                        break;
+
+                    case "4":
                         Console.WriteLine("Cıkmak icin Enter'a basiniz...");
                         break;
                     default:
